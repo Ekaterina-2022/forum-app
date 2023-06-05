@@ -1,0 +1,33 @@
+.new {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(230, 97, 154);
+	border: 1px dashed rgb(241, 53, 53);
+	font-style: "italic";
+	font-size: 1.2em;
+}
+.old {
+	display: flex;
+	width: 100%;
+	background-color: rgb(97, 161, 230);
+	border: 1px dashed rgb(241, 53, 53);
+	justify-content: center;
+	align-items: center;
+	font-style: italic;
+}
+p {
+	width: 15%;
+}
+.comment {
+	flex-grow: 1;
+}
+.btn-del {
+	display: block;
+	width: 10%;
+	height: 20px;
+	background-color: rgb(248, 214, 173);
+	border-radius: 5px;
+	border: none;
+}

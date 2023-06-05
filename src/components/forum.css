@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+}
+.messages {
+	height: 70%;
+	width: 80%;
+	border: 2px solid rgb(218, 144, 32);
+}
+.user-nickname {
+	border: none;
+	border-bottom: 3px solid rgb(215, 78, 36);
+	margin-bottom: 2px;
+}
+.user-text {
+	display: block;
+	width: 80%;
+	height: 15%;
+	border: 2px solid goldenrod;
+}
+.btn {
+	display: block;
+	height: 30px;
+	width: 50%;
+	background-color: coral;
+	border: none;
+	color: aliceblue;
+	font-size: 18px;
+}
